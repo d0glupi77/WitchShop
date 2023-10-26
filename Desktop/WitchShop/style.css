@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: times, serif;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(98, 98, 97);
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(102, 64, 138);
+}
+
+h1, h3{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family:monospace;
+    font-size:400%;
+}
+.cta {
+    margin: 20px;
+    padding:20px;
+    background-color: rgb(87, 23, 104);
+    border-radius: 25px;
+    align-items: right;
+    flex-direction: row-reverse;
+}
+.cta a{
+    color:rgb(245, 156, 109);
+}
+
+.productinfo{
+    display:flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: row-reverse;
+    margin:30px;
+
+}
+
+#Dtitle{
+    font-family: monospace;
+    font-size: 400%;
+    font-weight:50;
+    padding-left:20px;
+    padding-bottom:25px;
+}
+#qualitylist{
+    font-family: monospace;
+    font-size: 180%;
+    padding-left:50px;
+    padding-bottom:30px;
+}
+#vassora{
+    border-radius: 25px;
+}
+
+#Textdescription{
+    font-family: monospace;
+    font-size: 200%;
+    font-weight:100;
+    padding-left:20px;
+    padding-bottom:25px;
+}
